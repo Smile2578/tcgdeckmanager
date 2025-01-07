@@ -140,7 +140,7 @@ export interface CardData {
 }
 
 // Configuration
-const API_KEY = process.env.NEXT_PUBLIC_POKEMON_TCG_API_KEY
+const API_KEY = process.env.POKEMON_TCG_API_KEY
 
 if (!API_KEY) {
   console.warn("Pokemon TCG API key is not set")
